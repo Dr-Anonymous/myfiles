@@ -1,5 +1,13 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+url: http://myfiles.ga
+title: myfiles.ga
+description: your online place
+show_downloads: false
+google_analytics: 
 theme: jekyll-theme-hacker
+timezone: Asia/Calcutta
+exclude: [exclude]
+keep_files: [keep]
+include: [include]
+permalink: pretty
+plugins:
+  - jemoji
