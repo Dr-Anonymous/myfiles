@@ -15,6 +15,6 @@ ORT 1 links-
 *Ortho 1 google drive details-
 
 ```
-username: kmcortho1@gmail.com
-password: manipalortho1
+username: manipalortho1
+password: kmcortho1@gmail.com
 ```
