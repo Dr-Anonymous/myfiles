@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# {{ page.url }}
+# ort1
 
 ORT 1 links-
 
@@ -11,3 +11,10 @@ ORT 1 links-
 *[surgical data statistics](https://docs.google.com/spreadsheets/d/1qoM3hZZwtidhqY3lGDhMXzZT07ewSc2ndi_sdO4K3qY/edit?usp=sharing)
 
 *[ortho 1 example discharge summaries](https://docs.google.com/document/d/1ILacITqqX_Q_sBlegYX8eH8DghUDfThilSx6l7Ryx28/edit)
+
+*Ortho 1 google drive details-
+
+```
+username: kmcortho1@gmail.com
+password: manipalortho1
+```
