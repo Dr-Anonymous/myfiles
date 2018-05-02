@@ -15,5 +15,5 @@ layout: default
 
 ```
 username: manipalortho1
-password: kmcortho1@gmail.com
+password: kmcortho1
 ```
