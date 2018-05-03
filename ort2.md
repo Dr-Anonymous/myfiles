@@ -13,11 +13,13 @@ layout: default
 -->
 *Ortho 2 google drive details-
 
+Spine side-
 ```
 username: latakumari608@gmail.com
 password: latakumari608
 ```
 
+Paediatric side-
 ```
 username: pstorexrays@gmail.com
 password: hiteshshah2121
