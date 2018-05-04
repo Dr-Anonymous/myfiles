@@ -8,9 +8,7 @@ Pages available on myfiles.ga-
 
 {% for page in site.pages %}
   {% if page.categories contains 'pages' %}
-    <ul>
   <li><a href="{{page.url}}" style="color:#b5e853;">{{page.title}}</a></li>
-    </ul>
   {% endif %}
 {% endfor %}
 
