@@ -21,5 +21,5 @@ username: 10101
 password: admin
 ```
 
-For unit specific details type the unit name, example-
+For unit specific details type the unit number following ort, example-
 >myfiles.ga/ort1
