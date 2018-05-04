@@ -1,5 +1,6 @@
 ---
 layout: default
+resource: true
 ---
 
 # ort data
