@@ -1,6 +1,6 @@
 ---
 layout: default
-resource: true
+categories: [pages]
 ---
 
 # ort1 data
