@@ -5,9 +5,9 @@ layout: default
 # Pages directory
 
 {% for page in site.pages %}
-  {% if page.categories contains 'fruit' %}
+  {% if page.categories contains 'pages' %}
     <div class="item">
-      <h3>{{page.title}}</h3>
+  <h3><a href="{{page.url}}">{{page.title}}</a></h3>
       <p>{{page.description}}</p>  
     </div>
   {% endif %}
