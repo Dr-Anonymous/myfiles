@@ -11,3 +11,4 @@ include: [include]
 permalink: pretty
 plugins:
   - jemoji
+category-list: [pages]
