@@ -1,6 +1,6 @@
 ---
 layout: default
-resource: true
+categories: [pages]
 ---
 
 # sitaram
