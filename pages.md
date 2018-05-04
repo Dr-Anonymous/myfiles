@@ -7,8 +7,7 @@ layout: default
 {% for page in site.pages %}
   {% if page.categories contains 'pages' %}
     <div class="item">
-  <h3><a href="{{page.url}}">{{page.title}}</a></h3>
-      <p>{{page.description}}</p>  
+     <h3><a href="{{page.url}}" style="color:#b5e853;">{{page.title}}</a></h3> 
     </div>
   {% endif %}
 {% endfor %}
