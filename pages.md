@@ -4,11 +4,13 @@ layout: default
 
 # Pages directory
 
+Pages available on myfiles.ga-
+
 {% for page in site.pages %}
   {% if page.categories contains 'pages' %}
-    <div class="item">
-     <h3><a href="{{page.url}}" style="color:#b5e853;">{{page.title}}</a></h3> 
-    </div>
+    <ul>
+  <li><a href="{{page.url}}" style="color:#b5e853;">{{page.title}}</a></li>
+    </ul>
   {% endif %}
 {% endfor %}
 
