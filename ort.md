@@ -10,6 +10,10 @@ categories: [pages]
 
 *[RISPACS](http://172.16.8.100/Physician?loginTo=RIS)
 
+*[Preop orders](https://docs.google.com/document/d/1U5q8ZhFs09otT8U4FQADgoNHWjfsAmgB2lO4vQDSgBY/edit?usp=sharing)
+
+*[Blood transfusion order/notes](https://docs.google.com/document/d/1OCKdu_11rQ7iOSH3SPmTTuYBs7oCFq6CslAgAkM_PIY/edit?usp=sharing)
+
 ```
 username: ort
 password: ORT123
