@@ -24,7 +24,7 @@ categories: [pages]
 Spine side-
 ```
 username: latakumari608@gmail.com
-password: latakumari608
+password: latakumari6
 ```
 
 Paediatric side-
