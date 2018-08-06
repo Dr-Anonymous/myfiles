@@ -17,7 +17,7 @@ categories: [pages]
 
 *[Trauma audit data](https://drive.google.com/open?id=1igM_4rFJNYYtgEvgQS_krsKvl4xxP7QECQmG-M_AQCw)
 
-*[OT appointments](https://calendar.google.com/calendar?cid=MmFmc3Y1YjZiZzhjNzVwdnBpczU1Ymhnb2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+*[Daily reporting](https://docs.google.com/document/d/1V2l8D6aw6Vh0GgzX_2fI6Ckc8A1I4JiCGHxBSGyxu8Y)
 
 *Ortho 2 google drive details-
 
