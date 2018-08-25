@@ -5,7 +5,7 @@ show_downloads: false
 google_analytics: 
 theme: jekyll-theme-hacker
 timezone: Asia/Calcutta
-exclude: [r.html]
+exclude: []
 keep_files: [keep]
 include: [include]
 permalink: pretty
