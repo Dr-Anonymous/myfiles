@@ -30,7 +30,7 @@ var request = jQuery.ajax({
 	  $("#main").append(rows[i]+"<br>");
 	}
 	  }
-	)catch(err) {
+	}catch(err) {
         $("#main").append("No such id. "+ err);
 	}
 }
