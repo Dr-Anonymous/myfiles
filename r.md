@@ -40,7 +40,7 @@ var request = jQuery.ajax({
 <script>
 function getURLParameter(name) {
     var para= decodeURI((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]);
-   console.log("Fetching: "para);
+   console.log("Fetching: "+para);
    return para;
 }	
 </script>
