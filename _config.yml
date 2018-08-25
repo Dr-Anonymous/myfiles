@@ -12,5 +12,5 @@ permalink: pretty
 plugins:
   - jemoji
   - jekyll-sitemap
-  - redirect-from
+  - jekyll-redirect-from
 categories: [pages]
