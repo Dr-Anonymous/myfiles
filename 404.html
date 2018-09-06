@@ -4,8 +4,7 @@
 <script>
 function callGoogleScript() {
 var para= window.location.pathname.slice(1);
-if(isNaN(para))
-{
+if(isNaN(para)){
 	var url = "https://script.google.com/macros/s/AKfycbwQt4QiNTg8RjaAVd4KHZ_yClTbzgrvF34FZIIgEmIb8yGSHn8/exec?callback=loadData&id=1ZrGx_JUs8avZ3yT5nRf1eDI7pUl1PiP2Xrrlc0IGyuw&sheet=Sheet2&num="+ para;
 // Make an AJAX call to Google Script
 var request = jQuery.ajax({
@@ -14,9 +13,7 @@ var request = jQuery.ajax({
       method: "GET",
       dataType: "jsonp"
     });
-  }
-}
- }else{
+  }else{
 var url = "https://script.google.com/macros/s/AKfycbwQt4QiNTg8RjaAVd4KHZ_yClTbzgrvF34FZIIgEmIb8yGSHn8/exec?callback=loadData1&id=1ZrGx_JUs8avZ3yT5nRf1eDI7pUl1PiP2Xrrlc0IGyuw&sheet=Sheet1&num="+ para;
 // Make an AJAX call to Google Script
 var request = jQuery.ajax({
