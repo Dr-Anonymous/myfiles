@@ -6,8 +6,27 @@ function callGoogleScript() {
 var para= window.location.pathname.slice(1);
 if(isNaN(para))
 {
-	console.log("its text");	
-	return;
+	var url = "https://script.google.com/macros/s/AKfycbwQt4QiNTg8RjaAVd4KHZ_yClTbzgrvF34FZIIgEmIb8yGSHn8/exec?callback=loadData&id=1ZrGx_JUs8avZ3yT5nRf1eDI7pUl1PiP2Xrrlc0IGyuw&sheet=Sheet2&num="+ para;
+// Make an AJAX call to Google Script
+var request = jQuery.ajax({
+      crossDomain: true,
+      url: url,
+      method: "GET",
+      dataType: "jsonp"
+    });
+  }
+}
+ // print the returned data from jsonp
+  function loadData(e) {
+  try {
+  var rows= e;
+         for (var i = 1; i < rows.length; i++) {
+	   $("#main").html(rows[2]);
+	 }
+	}catch(err) {
+        error();
+	}
+}
 }else{
 var url = "https://script.google.com/macros/s/AKfycbwQt4QiNTg8RjaAVd4KHZ_yClTbzgrvF34FZIIgEmIb8yGSHn8/exec?callback=loadData&id=1ZrGx_JUs8avZ3yT5nRf1eDI7pUl1PiP2Xrrlc0IGyuw&sheet=Sheet1&num="+ para;
 // Make an AJAX call to Google Script
