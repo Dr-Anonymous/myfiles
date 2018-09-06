@@ -16,19 +16,8 @@ var request = jQuery.ajax({
     });
   }
 }
- // print the returned data from jsonp
-  function loadData(e) {
-  try {
-  var rows= e;
-         for (var i = 1; i < rows.length; i++) {
-	   $("#main").html(rows[2]);
-	 }
-	}catch(err) {
-        error();
-	}
-}
-}else{
-var url = "https://script.google.com/macros/s/AKfycbwQt4QiNTg8RjaAVd4KHZ_yClTbzgrvF34FZIIgEmIb8yGSHn8/exec?callback=loadData&id=1ZrGx_JUs8avZ3yT5nRf1eDI7pUl1PiP2Xrrlc0IGyuw&sheet=Sheet1&num="+ para;
+ }else{
+var url = "https://script.google.com/macros/s/AKfycbwQt4QiNTg8RjaAVd4KHZ_yClTbzgrvF34FZIIgEmIb8yGSHn8/exec?callback=loadData1&id=1ZrGx_JUs8avZ3yT5nRf1eDI7pUl1PiP2Xrrlc0IGyuw&sheet=Sheet1&num="+ para;
 // Make an AJAX call to Google Script
 var request = jQuery.ajax({
       crossDomain: true,
@@ -39,7 +28,18 @@ var request = jQuery.ajax({
   }
 }
  // print the returned data from jsonp
-  function loadData(e) {
+ function loadData(e) {
+  try {
+  var rows= e;
+         for (var i = 1; i < rows.length; i++) {
+	   $("#main").html(rows[2]);
+	 }
+	}catch(err) {
+        error();
+	}
+}
+
+function loadData1(e) {
   try {
   var rows= e;
          for (var i = 1; i < rows.length; i++) {
@@ -50,6 +50,7 @@ var request = jQuery.ajax({
         error();
 	}
 }
+
 function error(){
 	$("#main").html('error page');
 	}
