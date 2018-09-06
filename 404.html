@@ -17,7 +17,7 @@ var request = jQuery.ajax({
       dataType: "jsonp"
     });
   }
- 
+}
  // print the returned data from jsonp
   function loadData(e) {
   try {
@@ -28,7 +28,7 @@ var request = jQuery.ajax({
 	 }
 	}catch(err) {
         error();
-}	}
+	}
 }
 function error(){
 	$("#main").html('error page');
