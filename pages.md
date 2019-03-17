@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <body onload="callGoogleScript();">
 
 # Pages
