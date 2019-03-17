@@ -32,7 +32,7 @@ function callGoogleScript() {
 var para= window.location.pathname.slice(1);
 if(isNaN(para)){
 	var url = "https://script.google.com/macros/s/AKfycbwQt4QiNTg8RjaAVd4KHZ_yClTbzgrvF34FZIIgEmIb8yGSHn8/exec?callback=loadData&id=1ZrGx_JUs8avZ3yT5nRf1eDI7pUl1PiP2Xrrlc0IGyuw&sheet=Sheet2&num="+ para;
-// Make an AJAX call to Google Script
+// its a page
 var request = jQuery.ajax({
       crossDomain: true,
       url: url,
@@ -41,7 +41,7 @@ var request = jQuery.ajax({
     });
   }else{
 var url = "https://script.google.com/macros/s/AKfycbwQt4QiNTg8RjaAVd4KHZ_yClTbzgrvF34FZIIgEmIb8yGSHn8/exec?callback=loadData1&id=1ZrGx_JUs8avZ3yT5nRf1eDI7pUl1PiP2Xrrlc0IGyuw&sheet=Sheet1&num="+ para;
-// Make an AJAX call to Google Script
+// its a url redirect
 var request = jQuery.ajax({
       crossDomain: true,
       url: url,
@@ -75,13 +75,13 @@ function loadData1(e) {
 }
 
 function error(){
-	$("#main").html('error page');
+	$("#main").html('Error. No Such Page found');
 	}
   </script>
 	<div id="main">Loading .....</div>
 <div class="container" style="border-top-width: 1px;border-top-style: dashed;border-top-color: rgb(181, 232, 83);">
       <footer>
-        <p>With <img class="emoji" title=":gift_heart:" alt=":gift_heart:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f49d.png" height="20" width="20"> from <a href="http://samuel.cf">Samuel Ch</a></p>
+        <p>With <img class="emoji" title=":heart:" alt=":heart:" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" height="20" width="20"> from <a href="http://samuel.cf">Samuel Ch</a></p>
       </footer>
     </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
