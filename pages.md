@@ -1,6 +1,3 @@
----
-layout: default
----
 <body onload="callGoogleScript();">
 
 # Pages
